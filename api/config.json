@@ -1,0 +1,92 @@
+{
+    "cotton": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/CottonModel.tflite",
+        "input_size": [384, 384],
+        "class_names": [
+            "Bacterial Blight", 
+            "Curl Virus", 
+            "Healthy", 
+            "Pest Damage"
+        ],
+        "model_type": "transfer_learning"
+    },
+    "mango": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/MangoModel.tflite",
+        "input_size": [224, 224],
+        "class_names": [
+            "Anthracnose",
+            "Bacterial Canker", 
+            "Cutting Weevil", 
+            "Die Back", 
+            "Gall Midge",
+            "Healthy"
+        ],
+        "model_type": "transfer_learning"
+    },
+    "corn": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/CornModel.tflite",
+        "input_size": [256, 256],
+        "class_names": [
+            "Corn Common rust", 
+            "Corn Gray leaf spot", 
+            "Corn Healthy", 
+            "Corn Northern Leaf Blight"
+        ],
+        "model_type": "from_scratch"
+    },
+    "potato": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/PotatoModel.tflite",
+        "input_size": [256, 256],
+        "class_names": [
+            "Potato Early blight", 
+            "Potato Late blight", 
+            "Potato Healthy"
+        ],
+        "model_type": "from_scratch"
+    },
+    "rice": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/RiceModel.tflite",
+        "input_size": [150, 150],
+        "class_names": [
+            "Bacterial Leaf Blight", 
+            "Brown Spot", 
+            "Healthy Rice Leaf",
+            "Leaf Blast",
+            "Leaf scald",
+            "Sheath Blight"
+        ],
+        "model_type": "from_scratch"
+    },
+    "sugarcane": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/SugarCaneModel.tflite",
+        "input_size": [384, 384],
+        "class_names": [
+            "Healthy", "Mosaic", "RedRot", 
+            "Rust", "Yellow"
+        ],
+        "model_type": "from_scratch"
+    },
+    "tomato": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/TomatoModel.tflite",
+        "input_size": [384, 384],
+        "class_names": [
+            "Bacterial_Spot", "Early_Blight", "Healthy", 
+            "Late_Blight", "Leaf_Mold", "Mosaic_Virus", 
+            "Septoria_Leaf_Spot", "Spider_Mite", 
+            "Target_Spot", "Yellow_Leaf_Curl_Virus"
+        ],
+        "model_type": "from_scratch"
+    },
+    "wheat": {
+        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/WheatModel.tflite",
+        "input_size": [384, 384],
+        "class_names": [
+            "Brown Rust",
+            "Fusarium Head Blight",
+            "Healthy",
+            "Leaf Blight",
+            "Yellow Rust"
+        ],
+        "model_type": "from_scratch"
+    }
+}
