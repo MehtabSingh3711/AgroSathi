@@ -1,6 +1,6 @@
 {
     "cotton": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/CottonModel.tflite",
+        "path": "../Final-Models/tflite format/CottonModel.tflite",
         "input_size": [384, 384],
         "class_names": [
             "Bacterial Blight", 
@@ -11,7 +11,7 @@
         "model_type": "transfer_learning"
     },
     "mango": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/MangoModel.tflite",
+        "path": "../Final-Models/tflite format/MangoModel.tflite",
         "input_size": [224, 224],
         "class_names": [
             "Anthracnose",
@@ -24,7 +24,7 @@
         "model_type": "transfer_learning"
     },
     "corn": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/CornModel.tflite",
+        "path": "../Final-Models/tflite format/CornModel.tflite",
         "input_size": [256, 256],
         "class_names": [
             "Corn Common rust", 
@@ -35,7 +35,7 @@
         "model_type": "from_scratch"
     },
     "potato": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/PotatoModel.tflite",
+        "path": "../Final-Models/tflite format/PotatoModel.tflite",
         "input_size": [256, 256],
         "class_names": [
             "Potato Early blight", 
@@ -45,7 +45,7 @@
         "model_type": "from_scratch"
     },
     "rice": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/RiceModel.tflite",
+        "path": "../Final-Models/tflite format/RiceModel.tflite",
         "input_size": [150, 150],
         "class_names": [
             "Bacterial Leaf Blight", 
@@ -58,7 +58,7 @@
         "model_type": "from_scratch"
     },
     "sugarcane": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/SugarCaneModel.tflite",
+        "path": "../Final-Models/tflite format/SugarCaneModel.tflite",
         "input_size": [384, 384],
         "class_names": [
             "Healthy", "Mosaic", "RedRot", 
@@ -67,7 +67,7 @@
         "model_type": "from_scratch"
     },
     "tomato": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/TomatoModel.tflite",
+        "path": "../Final-Models/tflite format/TomatoModel.tflite",
         "input_size": [384, 384],
         "class_names": [
             "Bacterial_Spot", "Early_Blight", "Healthy", 
@@ -78,7 +78,7 @@
         "model_type": "from_scratch"
     },
     "wheat": {
-        "path": "C:/Users/mehta/Downloads/CropDisease/Final-Models/tflite format/WheatModel.tflite",
+        "path": "../Final-Models/tflite format/WheatModel.tflite",
         "input_size": [384, 384],
         "class_names": [
             "Brown Rust",

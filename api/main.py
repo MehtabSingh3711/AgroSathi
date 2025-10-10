@@ -9,7 +9,7 @@ from tensorflow.keras.applications.efficientnet_v2 import preprocess_input
 
 app = FastAPI(title="Crop Disease Detection API")
 
-CONFIG_PATH = r"C:\Users\mehta\Downloads\CropDisease\api\config.json"
+CONFIG_PATH = "api\config.json"
 MODELS_CONFIG = {}
 try:
     with open(CONFIG_PATH, 'r') as f:
