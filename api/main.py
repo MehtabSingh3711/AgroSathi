@@ -93,3 +93,7 @@ async def predict(
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the Crop Disease Detection API!"}
+
+@app.get("/models")
+def get_available_models():
+    return {"models": list(MODELS_CONFIG.keys())}
