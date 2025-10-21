@@ -1,5 +1,5 @@
 ---
-title: Crop Disease API
+title: AgroSathi
 emoji: 🌿
 colorFrom: green
 colorTo: yellow
